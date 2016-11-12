@@ -90,6 +90,7 @@ After you select which .csv files you will be using as your two datasets, you ca
 
 ##### Feature Selection
 When you run the dataframe 1 feature selection cell, a series of checkboxes will appear below the cell, with a scroll bar to see more if they do not fit on the page. Check the box to the right of the feature column headers you would like to include in your analysis. Some may be pre-checked if they are in the list of feature names to select by default. (Temperature, for example.)
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/checkboxes.png?raw=true "")
 
 ##### Dataframe Display
 In the cells following feature selection, tables should appear showing the dataframe you have created. The headings of this column show what features of the dataset will be analyzed throughout. This is displayed as a way to confirm this was done as intended.
@@ -107,6 +108,17 @@ Here is an example of a visual this might generate:
 
 
 ##### Diurnal Profile Showing Comparison of Same Feature for Two Datasets on Average Day
+
+Next you will see a section of the notebook labeled "Compare Two Datasets: Diurnal Profiiles"
+To make diurnal profiles, this takes the average value of a feature over the whole dataset at a certain time a day, and plots how this changes for each hour of the day. It is essentially showing how that feature changes from midnight to midnight on the average day. 
+Again, this will be done for the two datasets originally uploaded.
+You choose a feature and generate the plot for this the same way as above, except the x-axis will always represent hours. 
+
+Here is an example of what this might generate:
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/diurnal_feature_select.png?raw=true "")
+
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/diurnal_graph.png?raw=true "")
+
 
 ##### Select Range of Days and Plot Diurnal Profile Feature Comparison for Those Days
 
