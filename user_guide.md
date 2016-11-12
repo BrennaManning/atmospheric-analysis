@@ -176,10 +176,15 @@ As usual after making your selection, do not re-run this cell that generated the
 
 
 
-##### Kruskal T-Test
+##### Kruskal Test
+The last analysis portion of this notebook is the Kruskal Wallis Test. [You can learn more about this test here.](http://www.biostathandbook.com/kruskalwallis.html) It is commonly used to reach conclusions in biology research. You can use it to determine whether or not variation is likely to be due to chance.
+
+You can run this test on a certain feature between two datasets by selecting them from the dropdown menus. The test result will be printed below that cell.  A p-value below 0.5 shows 95% confidence that the differences between some of the medians are statistically significant.  More info on how to interpret these results [can be found here.](http://support.minitab.com/en-us/minitab-express/1/help-and-how-to/modeling-statistics/anova/how-to/kruskal-wallis-test/interpret-the-results/key-results/)
 
 
 ##### Exporting dataframe to a new.CSV File
+
+To export a dataframe you have created/worked with in this notebook, simply select a dataframe from the dropdown menu and in the text box widget below, replace 'test.csv' with whatever you wish to call your new .CSV file.
 
 
 ### Troubleshooting:
