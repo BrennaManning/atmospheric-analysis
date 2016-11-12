@@ -21,9 +21,10 @@ Save your data sets as .csv files in the 'data' folder of this repository. This 
 
 ![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/csv_dropdown.png?raw=true "")
 
-###### Data formatting requirements:
-Date/time column must be labeled 'Date' and must be in either the format %m/%d/%y %H:%M" or the format "%m/%d/%y %H:%M:%S".
-Temperature data must be included for temperature bracket range functunality. Temperature column header should be labeled 'Temperature_(degC)'. 
+### Data formatting requirements:
+**Date/time column must be labeled 'Date' and must be in either the format yyyy-mm-dd HH:MM:SS or the format m/dd/yy HH:MM.**
+
+**Temperature data must be included for temperature bracket range functunality. Temperature column header should be labeled 'Temperature_(degC)'.** 
 
 
 ## Let's get started!
