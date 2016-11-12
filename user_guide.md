@@ -143,7 +143,7 @@ These temperature ranges can be created either with cutoff temperatures or by pe
 
 ###### Cutoffs
 
-![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/temp_cutoff_interactive.png?raw=true "")
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/temp_cutoffs_interactive.png?raw=true "")
 
 
 ###### Percentiles
