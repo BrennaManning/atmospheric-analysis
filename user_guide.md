@@ -107,6 +107,12 @@ When you run the dataframe 1 feature selection cell, a series of checkboxes will
 ###### Percentiles
 
 ##### Spearman's Rank Correlation Matirx
+Spearman's rank correlation tracks how well each series' trends correlate with one another (this is done in a matrix representation). The pandas method dataframe.corr lets us pick spearman, ignores nans and constructs a useful dataframe of correlation coefficients to generate the matrix.
+
+The output will look something like this:
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/corr_matrix.png?raw=true "")
+
+You will select features to include in the correlation matrix the same way you selected features of the dataframe to analyze at the start of the notebook. Keep in mind that only the columns you select which contain numerical data will be included in the matrix.
 
 ##### Kruskal T-Test
 
