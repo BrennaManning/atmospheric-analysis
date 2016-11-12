@@ -108,6 +108,10 @@ When you run the dataframe 1 feature selection cell, a series of checkboxes will
 
 ##### Spearman's Rank Correlation Matirx
 
+
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/corr_matrix.png?raw=true "")
+
+
 ##### Kruskal T-Test
 
 
