@@ -92,8 +92,19 @@ After you select which .csv files you will be using as your two datasets, you ca
 When you run the dataframe 1 feature selection cell, a series of checkboxes will appear below the cell, with a scroll bar to see more if they do not fit on the page. Check the box to the right of the feature column headers you would like to include in your analysis. Some may be pre-checked if they are in the list of feature names to select by default. (Temperature, for example.)
 
 ##### Dataframe Display
+In the cells following feature selection, tables should appear showing the dataframe you have created. The headings of this column show what features of the dataset will be analyzed throughout. This is displayed as a way to confirm this was done as intended.
 
-##### Plot Cmparing Same Feature for Two Datasets
+##### Plot Comparing Same Feature for Two Datasets
+After some preprocessing and cleaning you will see the header "Comparing Two Datasets". 
+Here, using the two datasets you uploaded at the top of the notebook, you will choose a common variable for the x axis, and another for the y axis for comparison. 
+For example, the date or temperature could be represented along the x axis, and another feature would be chosen to see how it varies over that x-axis variable for both datasets. 
+
+Here is an example of a visual this might generate:
+
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/two_datasets_feature_dropdowns.png?raw=true "")
+
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/two_dataset_comparison.png?raw=true "")
+
 
 ##### Diurnal Profile Showing Comparison of Same Feature for Two Datasets on Average Day
 
@@ -107,7 +118,7 @@ When you run the dataframe 1 feature selection cell, a series of checkboxes will
 ###### Percentiles
 
 ##### Spearman's Rank Correlation Matirx
-Spearman's rank correlation tracks how well each series' trends correlate with one another (this is done in a matrix representation). The pandas method dataframe.corr lets us pick spearman, ignores nans and constructs a useful dataframe of correlation coefficients to generate the matrix.
+Spearman's rank correlation tracks how well each series' trends correlate with one another (this is done in a matrix representation). The pandas method dataframe.corr lets us pick spearman, ignores non-number values and constructs a useful dataframe of correlation coefficients to generate the matrix.
 
 The output will look something like this:
 
@@ -116,14 +127,15 @@ The output will look something like this:
 or this:
 
 
-![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/corr_matrix5.png?raw=true "")
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/corr_matrix_5.png?raw=true "")
 
 
 You will select features to include in the correlation matrix the same way you selected features of the dataframe to analyze at the start of the notebook. Keep in mind that only the columns you select which contain numerical data will be included in the matrix. 
 
 Choose the dataframe you wish to view a correlation matrix for in the dropdown menu.
 Once again, check the boxes to the right of the features you wish to select.
-Do not run this cell again after making your selection, but proceed to the cells below.
+As usual after making your selection, do not re-run this cell that generated the widget, but proceed to the cells below.
+
 ![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/checkboxes.png?raw=true "")
 
 
