@@ -115,19 +115,42 @@ Again, this will be done for the two datasets originally uploaded.
 You choose a feature and generate the plot for this the same way as above, except the x-axis will always represent hours. 
 
 Here is an example of what this might generate:
+
 ![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/diurnal_feature_select.png?raw=true "")
+
 
 ![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/diurnal_graph.png?raw=true "")
 
 
 ##### Select Range of Days and Plot Diurnal Profile Feature Comparison for Those Days
+After running these cells and selecting a feature, you will have the oppurtunity to input a start and end to a date range to generate a diurnal profile graph as well as to move these sliders to update the graph in real time. 
+
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/diurnal_time_range.png?raw=true "")
+
 
 ##### Select Range of Hours and Make Plot of Daily Average Values within that Time Range
 
+Similarly to the date range diurnal profile plot, here you can select a specific time of day you want to look at a comparison plot of. This will be done with either text inputs or interactive sliders the same way as done above. 
+
+
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/time_range_interactive.png?raw=true "")
+
+
 ##### Separate Datasets into Temperature Brackets and Plot
+
+This is done the same way for temperature ranges if temperature data was included with the proper header. 
+These temperature ranges can be created either with cutoff temperatures or by percentiles.
+
 ###### Cutoffs
 
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/temp_cutoff_interactive.png?raw=true "")
+
+
 ###### Percentiles
+
+
+![alt text](https://github.com/BrennaManning/atmospheric-analysis/blob/master/images/temp_percentiles_interactive.png?raw=true "")
+
 
 ##### Spearman's Rank Correlation Matirx
 Spearman's rank correlation tracks how well each series' trends correlate with one another (this is done in a matrix representation). The pandas method dataframe.corr lets us pick spearman, ignores non-number values and constructs a useful dataframe of correlation coefficients to generate the matrix.
